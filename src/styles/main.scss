@@ -4,24 +4,25 @@
 
 body {
   display: flex;
+
   height: 100vh;
+  justify-content: center;
   margin: 0;
 
   -ms-flex-align: center;
 
   -ms-flex-pack: center;
-
-  justify-content: center;
 }
 
 .wall {
   background-color: #f9b47d;
-  background-image: url(../images/brick-wall.svg);
   border: #e1e1e1 solid 10px;
+  background-image: url(../images/brick-wall.svg);
+
   width: 400px;
+  cursor: pointer;
   height: 400px;
 
-  cursor: pointer;
   position: relative;
 }
 

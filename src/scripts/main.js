@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const spider = document.querySelector('.spider');
 
   if (!wall || !spider) {
-    //eslint-disable-next-line no-console
+    // eslint-disable-next-line no-console
     console.error('Wall or spider element not found');
 
     return;
