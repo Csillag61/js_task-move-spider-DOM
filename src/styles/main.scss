@@ -3,10 +3,14 @@
 @import 'typography';
 
 body {
-  margin: 0;
-  height: 100vh;
   display: flex;
-  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  -ms-flex-align: center;
+
+  -ms-flex-pack: center;
+
   justify-content: center;
 }
 
@@ -16,15 +20,18 @@ body {
   border: #e1e1e1 solid 10px;
   width: 400px;
   height: 400px;
-  position: relative;
+
   cursor: pointer;
+  position: relative;
 }
 
 .spider {
   position: absolute;
   top: 0;
   left: 0;
+
   width: 50px;
   height: 50px;
+
   transition: 1s;
 }
